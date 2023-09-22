@@ -11,7 +11,7 @@
   "files": [
     "dist"
   ],
-  "author": "Medusa",
+  "author": "Stream Protocol",
   "license": "MIT",
   "scripts": {
     "prepublishOnly": "cross-env NODE_ENV=production tsc --build",
@@ -20,8 +20,8 @@
     "watch": "tsc --watch"
   },
   "devDependencies": {
-    "@medusajs/admin": "^7.0.2",
-    "@medusajs/medusa": "^1.16.0",
+    "@medusajs/admin": "^7.1.2",
+    "@medusajs/medusa": "^1.16.1",
     "@types/stripe": "^8.0.417",
     "awilix": "^8.0.1",
     "cross-env": "^7.0.3",
@@ -49,7 +49,7 @@
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "medusa-core-utils": "^1.2.0",
-    "stripe": "^11.10.0"
+    "stripe": "^13.7.0"
   },
   "keywords": [
     "medusa-plugin",
